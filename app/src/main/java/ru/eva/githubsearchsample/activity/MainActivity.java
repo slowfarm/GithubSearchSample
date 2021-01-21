@@ -1,4 +1,4 @@
-package ru.eva.githubsearchsample;
+package ru.eva.githubsearchsample.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,11 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import ru.eva.githubsearchsample.App;
+import ru.eva.githubsearchsample.R;
+import ru.eva.githubsearchsample.adapter.MainActivityAdapter;
+import ru.eva.githubsearchsample.model.UsersApi;
 
 public class MainActivity extends AppCompatActivity {
 

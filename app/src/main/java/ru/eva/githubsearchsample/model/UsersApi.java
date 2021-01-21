@@ -1,4 +1,4 @@
-package ru.eva.githubsearchsample;
+package ru.eva.githubsearchsample.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

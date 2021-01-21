@@ -1,4 +1,4 @@
-package ru.eva.githubsearchsample;
+package ru.eva.githubsearchsample.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +14,11 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
-class MainActivityAdapter extends RecyclerView.Adapter<MainActivityAdapter.ViewHolder> {
+import ru.eva.githubsearchsample.R;
+import ru.eva.githubsearchsample.model.Item;
+import ru.eva.githubsearchsample.model.Owner;
+
+public class MainActivityAdapter extends RecyclerView.Adapter<MainActivityAdapter.ViewHolder> {
 
     private List<Item> items = new ArrayList<>();
 
